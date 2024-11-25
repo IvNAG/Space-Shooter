@@ -225,7 +225,7 @@ void dibujoBarraVida(SDL_Renderer *renderer, float vida, GameTextures *textures)
     }
 }
 
-void drawPowerUpTimer(SDL_Renderer *renderer, Uint32 startTime) {
+void dibujoTiempoPowerUp(SDL_Renderer *renderer, Uint32 startTime) {
     const int TIMER_Ancho = 100;
     const int TIMER_Largo = 10;
     const int TIMER_X = ANCHO_PANTALLA - TIMER_Ancho - 10;
